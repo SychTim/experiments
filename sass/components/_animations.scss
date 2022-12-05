@@ -1,0 +1,133 @@
+.boxCurrent {
+    transform: scale(1.2);
+};
+
+
+
+@keyframes moveTop1 {
+    0% {
+        transform: translateY(0px) scale(1.2);
+    }
+
+    100% {
+        transform: translateY(-100px) scale(1);
+    }
+};
+
+@keyframes moveTop2 {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+
+    50% {
+        transform: translateY(50px) scale(0.5);
+    }
+
+    100% {
+        transform: translateY(100px) scale(1);
+    }
+};
+
+.eatImg.moveTop1 {
+    animation: moveTop1 300ms linear 0ms 1 normal none;
+};
+
+.eatImg.moveTop2 {
+    animation: moveTop2 300ms linear 0ms 1 normal none;
+};
+
+@keyframes moveVnyz1 {
+    0% {
+        transform: translateY(0px) scale(1.2);
+    }
+
+    100% {
+        transform: translateY(100px) scale(1);
+    }
+};
+
+@keyframes moveVnyz2 {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+
+    50% {
+        transform: translateY(-50px) scale(0.5);
+    }
+
+    100% {
+        transform: translateY(-100px) scale(1);
+    }
+};
+
+.eatImg.moveVnyz1 {
+    animation: moveVnyz1 300ms linear 0ms 1 normal none;
+};
+
+.eatImg.moveVnyz2 {
+    animation: moveVnyz2 300ms linear 0ms 1 normal none;
+};
+
+@keyframes moveVpravo1 {
+    0% {
+        transform: translateX(0px) scale(1.2);
+    }
+
+    100% {
+        transform: translateX(100px) scale(1);
+    }
+};
+
+@keyframes moveVpravo2 {
+    0% {
+        transform: translateX(0px) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50px) scale(0.5);
+    }
+
+    100% {
+        transform: translateX(-100px) scale(1);
+    }
+};
+
+.eatImg.moveVpravo1 {
+    animation: moveVpravo1 300ms linear 0ms 1 normal none;
+};
+
+.eatImg.moveVpravo2 {
+    animation: moveVpravo2 300ms linear 0ms 1 normal none;
+};
+
+@keyframes moveVlevo1 {
+    0% {
+        transform: translateX(0px) scale(1.2);
+    }
+
+    100% {
+        transform: translateX(-100px) scale(1);
+    }
+};
+
+@keyframes moveVlevo2 {
+    0% {
+        transform: translateX(0px) scale(1);
+    }
+
+    50% {
+        transform: translateX(50px) scale(0.5);
+    }
+
+    100% {
+        transform: translateX(100px) scale(1);
+    }
+};
+
+.eatImg.moveVlevo1 {
+    animation: moveVlevo1 300ms linear 0ms 1 normal none;
+};
+
+.eatImg.moveVlevo2 {
+    animation: moveVlevo2 300ms linear 0ms 1 normal none;
+};

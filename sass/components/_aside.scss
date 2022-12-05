@@ -1,0 +1,47 @@
+.sidebar {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 300px;
+    margin-right: 10px
+};
+
+.content {
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 780px;
+    min-height: 300px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+};
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 500px;
+    margin: auto;
+};
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 5px;
+    
+};
+
+.eatImg {
+    border-radius: 5px;
+    transition: transform 300ms ease-in-out;
+};
+
+.musor {
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 200px;
+    min-height: 300px;
+};
