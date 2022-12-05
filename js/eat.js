@@ -17,22 +17,22 @@ function стартИгры() {
         const картинка = box.firstChild;
 
         if (рандомноеЧисло >= 0 && рандомноеЧисло < 1) {
-             адрессСсылки = '/images/eat/burger.jpg';
+             адрессСсылки = './images/eat/burger.jpg';
              кодКартинки = 'bg';
         }else if (рандомноеЧисло >= 1 && рандомноеЧисло < 2) {
-             адрессСсылки = '/images/eat/butterbroad.jpg';
+             адрессСсылки = './images/eat/butterbroad.jpg';
              кодКартинки = 'bb';
         }else if (рандомноеЧисло >= 2 && рандомноеЧисло < 3) {
-             адрессСсылки = '/images/eat/hotdog.jpg';
+             адрессСсылки = './images/eat/hotdog.jpg';
              кодКартинки = 'hd';
         }else if (рандомноеЧисло >= 3 && рандомноеЧисло < 4) {
-             адрессСсылки = '/images/eat/pizza.jpg';
+             адрессСсылки = './images/eat/pizza.jpg';
              кодКартинки = 'pz';
         }else if (рандомноеЧисло >= 4 && рандомноеЧисло < 5) {
-             адрессСсылки = '/images/eat/ponchik.jpg';
+             адрессСсылки = './images/eat/ponchik.jpg';
              кодКартинки = 'ph';
         }else {
-             адрессСсылки = '/images/eat/potetofree.jpg';
+             адрессСсылки = './images/eat/potetofree.jpg';
              кодКартинки = 'pf';
          };
          
