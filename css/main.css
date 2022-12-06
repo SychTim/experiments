@@ -147,6 +147,11 @@ img {
   min-height: 300px;
 }
 
+.WinCard {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
 .boxCurrent {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
