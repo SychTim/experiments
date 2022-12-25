@@ -133,10 +133,10 @@ img {
 
 .eatImg {
   border-radius: 5px;
-  -webkit-transition: -webkit-transform 300ms ease-in-out;
-  transition: -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  -webkit-transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
 .musor {
@@ -145,11 +145,6 @@ img {
   border-radius: 10px;
   width: 200px;
   min-height: 300px;
-}
-
-.WinCard {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
 }
 
 .boxCurrent {
@@ -403,5 +398,11 @@ img {
 .eatImg.moveVlevo2 {
   -webkit-animation: moveVlevo2 300ms linear 0ms 1 normal none;
           animation: moveVlevo2 300ms linear 0ms 1 normal none;
+}
+
+.WinCard {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  opacity: 0;
 }
 /*# sourceMappingURL=main.css.map */

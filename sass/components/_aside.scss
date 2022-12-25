@@ -35,7 +35,7 @@
 
 .eatImg {
     border-radius: 5px;
-    transition: transform 300ms ease-in-out;
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
 };
 
 .musor {
@@ -46,6 +46,3 @@
     min-height: 300px;
 };
 
-.WinCard {
-    transform: scale(1.5);
-};
